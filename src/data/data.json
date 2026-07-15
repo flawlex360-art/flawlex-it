@@ -1,0 +1,366 @@
+{
+  "company": {
+    "name": "Flawlex Technologies",
+    "tagline": "Building Digital Solutions That Drive Results",
+    "description": "We deliver expert IT consulting, custom software development, and managed IT services to businesses across Ghana and beyond. Our passion for STEM education fuels our innovation.",
+    "phone": "+233 59 266 4865",
+    "email": "info@kpandoanglicanstem.org",
+    "location": "Kpando, Volta Region, Ghana",
+    "founded": "2024",
+    "github": "https://github.com/flawlex360-art",
+    "social": {
+      "twitter": "#",
+      "linkedin": "#",
+      "facebook": "#",
+      "instagram": "#"
+    }
+  },
+  "stats": [
+    { "value": 25, "suffix": "+", "label": "Projects Delivered" },
+    { "value": 15, "suffix": "+", "label": "Clients Served" },
+    { "value": 99.9, "suffix": "%", "label": "Uptime Guarantee" },
+    { "value": 3, "suffix": "+", "label": "Years Experience" }
+  ],
+  "services": [
+    {
+      "id": "software-development",
+      "icon": "Code",
+      "title": "Software Development",
+      "subtitle": "Custom Applications & Web Platforms",
+      "description": "From concept to deployment, we build tailored software solutions that solve real business problems. Web apps, mobile applications, APIs, and enterprise systems — engineered for performance and scale.",
+      "deliverables": [
+        "Custom Web Applications",
+        "Mobile Apps (Android & iOS)",
+        "RESTful API Development",
+        "Database Design & Optimization",
+        "UI/UX Design & Prototyping"
+      ],
+      "technologies": ["React", "Next.js", "Node.js", "TypeScript", "Python", "Firebase", "PostgreSQL"]
+    },
+    {
+      "id": "it-consulting",
+      "icon": "Lightbulb",
+      "title": "IT Consulting & Strategy",
+      "subtitle": "Digital Transformation Advisory",
+      "description": "We help businesses navigate the digital landscape with strategic IT roadmaps, technology audits, and transformation plans that align technology with business objectives.",
+      "deliverables": [
+        "IT Infrastructure Assessment",
+        "Digital Transformation Roadmap",
+        "Technology Stack Evaluation",
+        "Process Automation Planning",
+        "Vendor Selection & Management"
+      ],
+      "technologies": ["Cloud Architecture", "System Design", "ITIL", "Agile", "DevOps"]
+    },
+    {
+      "id": "networking",
+      "icon": "Network",
+      "title": "Network & Infrastructure",
+      "subtitle": "Reliable, Scalable IT Infrastructure",
+      "description": "Design, deploy, and maintain robust network infrastructure. From structured cabling to wireless solutions, we ensure your IT backbone is secure, fast, and future-ready.",
+      "deliverables": [
+        "LAN/WAN Design & Deployment",
+        "Structured Cabling",
+        "Wireless Network Solutions",
+        "Server Setup & Configuration",
+        "Hardware Procurement & Setup"
+      ],
+      "technologies": ["Cisco", "MikroTik", "Ubiquiti", "Windows Server", "Linux"]
+    },
+    {
+      "id": "cybersecurity",
+      "icon": "Shield",
+      "title": "Cybersecurity",
+      "subtitle": "Protect Your Digital Assets",
+      "description": "Safeguard your organization from evolving cyber threats. We provide comprehensive security assessments, implementation, and monitoring to keep your data and systems safe.",
+      "deliverables": [
+        "Security Audits & Assessment",
+        "Firewall & Endpoint Protection",
+        "Data Backup & Recovery",
+        "Security Awareness Training",
+        "Incident Response Planning"
+      ],
+      "technologies": ["Fortinet", "Sophos", "CrowdStrike", "Wireshark", "Nmap"]
+    },
+    {
+      "id": "cloud-solutions",
+      "icon": "Cloud",
+      "title": "Cloud Solutions",
+      "subtitle": "Scalable Cloud Infrastructure",
+      "description": "Migrate, manage, and optimize your cloud infrastructure. We help businesses leverage cloud computing for cost savings, scalability, and operational agility.",
+      "deliverables": [
+        "Cloud Migration Strategy",
+        "Cloud Hosting & Management",
+        "Serverless Architecture",
+        "Cloud Cost Optimization",
+        "Multi-Cloud Strategy"
+      ],
+      "technologies": ["AWS", "Google Cloud", "Azure", "Vercel", "Docker", "Kubernetes"]
+    },
+    {
+      "id": "managed-services",
+      "icon": "Headphones",
+      "title": "Managed IT Services",
+      "subtitle": "End-to-End IT Support",
+      "description": "Focus on your core business while we handle your IT. From help desk support to proactive monitoring, we deliver reliable managed services with guaranteed SLAs.",
+      "deliverables": [
+        "24/7 Help Desk Support",
+        "Proactive System Monitoring",
+        "Regular Maintenance & Updates",
+        "IT Asset Management",
+        "SLA-Backed Service Delivery"
+      ],
+      "technologies": ["Remote Monitoring", "Ticketing Systems", "Automation", "ITSM"]
+    }
+  ],
+  "portfolio": [
+    {
+      "slug": "stem-equipment-ledger",
+      "title": "STEM Equipment Ledger",
+      "category": "Software",
+      "categoryTag": "stem",
+      "image": "/images/portfolio/stem-ledger.jpg",
+      "description": "A multi-platform inventory management system for tracking STEM equipment across schools. Features real-time sync, multi-school management, and low-stock alerts.",
+      "challenge": "Schools lacked a centralized system to track STEM equipment, leading to losses, duplicate purchases, and poor resource allocation across multiple institutions.",
+      "solution": "Built a 3-app ecosystem — School App, Community App, and Master Portal — with Firebase Firestore for real-time data synchronization, role-based access control, and comprehensive inventory tracking.",
+      "results": [
+        "50% reduction in equipment losses",
+        "Real-time visibility across all schools",
+        "Automated low-stock alerts",
+        "CSV/JSON export for reporting"
+      ],
+      "technologies": ["HTML/CSS/JS", "Electron", "Capacitor", "Firebase", "Firestore"],
+      "duration": "3 months",
+      "industry": "Education"
+    },
+    {
+      "slug": "school-management-system",
+      "title": "School Management Platform",
+      "category": "Software",
+      "categoryTag": "software",
+      "image": "/images/portfolio/school-mgmt.jpg",
+      "description": "A comprehensive web application for managing student records, attendance, grades, and communications for educational institutions.",
+      "challenge": "Manual record-keeping was time-consuming and error-prone, making it difficult for administrators to generate reports and track student progress.",
+      "solution": "Developed a full-stack web application with role-based dashboards for administrators, teachers, and parents, featuring automated report generation and real-time notifications.",
+      "results": [
+        "80% reduction in administrative workload",
+        "Real-time parent-teacher communication",
+        "Automated report card generation",
+        "Centralized student records"
+      ],
+      "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Node.js", "Vercel"],
+      "duration": "4 months",
+      "industry": "Education"
+    },
+    {
+      "slug": "network-infrastructure-upgrade",
+      "title": "Campus Network Overhaul",
+      "category": "Infrastructure",
+      "categoryTag": "infrastructure",
+      "image": "/images/portfolio/network.jpg",
+      "description": "Complete network redesign and deployment for a medium-sized campus, including structured cabling, wireless coverage, and security hardening.",
+      "challenge": "The existing network suffered from frequent outages, dead zones, and security vulnerabilities that disrupted daily operations.",
+      "solution": "Performed a full site survey, designed a segmented network architecture with VLANs, deployed enterprise-grade wireless APs, and implemented firewall policies.",
+      "results": [
+        "99.9% network uptime achieved",
+        "Full wireless coverage campus-wide",
+        "Zero security incidents post-deployment",
+        "40% bandwidth improvement"
+      ],
+      "technologies": ["Cisco", "Ubiquiti", "MikroTik", "pfSense", "Cat6 Cabling"],
+      "duration": "6 weeks",
+      "industry": "Education"
+    },
+    {
+      "slug": "ecommerce-platform",
+      "title": "E-Commerce Storefront",
+      "category": "Software",
+      "categoryTag": "software",
+      "image": "/images/portfolio/ecommerce.jpg",
+      "description": "A modern e-commerce platform with mobile money integration, product catalog management, and order tracking tailored for the Ghanaian market.",
+      "challenge": "Local businesses struggled to sell online due to lack of mobile money integration and user-friendly platforms adapted for the West African market.",
+      "solution": "Built a responsive storefront with MTN MoMo and Vodafone Cash integration, inventory management, and SMS order notifications.",
+      "results": [
+        "200+ products listed in first month",
+        "Mobile money payments processed seamlessly",
+        "3x increase in customer reach",
+        "Automated SMS order updates"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "Paystack", "Twilio"],
+      "duration": "2 months",
+      "industry": "Retail"
+    },
+    {
+      "slug": "security-audit",
+      "title": "IT Security Assessment",
+      "category": "Consulting",
+      "categoryTag": "consulting",
+      "image": "/images/portfolio/security.jpg",
+      "description": "Comprehensive cybersecurity audit for an SME, identifying vulnerabilities and implementing a security hardening plan.",
+      "challenge": "The organization had experienced a phishing attack and needed a thorough security review to identify gaps and prevent future incidents.",
+      "solution": "Conducted penetration testing, vulnerability scanning, and policy review. Delivered a remediation roadmap and implemented critical fixes including MFA, endpoint protection, and employee training.",
+      "results": [
+        "12 critical vulnerabilities patched",
+        "MFA implemented across all accounts",
+        "Security awareness training delivered",
+        "Incident response plan established"
+      ],
+      "technologies": ["Nmap", "Wireshark", "Burp Suite", "CrowdStrike", "KnowBe4"],
+      "duration": "3 weeks",
+      "industry": "Finance"
+    },
+    {
+      "slug": "cloud-migration",
+      "title": "Cloud Migration for SME",
+      "category": "Cloud",
+      "categoryTag": "consulting",
+      "image": "/images/portfolio/cloud.jpg",
+      "description": "Migrated on-premise infrastructure to the cloud, reducing costs and improving scalability for a growing small business.",
+      "challenge": "The company's aging on-premise servers were costly to maintain, frequently failed, and could not scale to meet growing demand.",
+      "solution": "Designed a phased migration plan, moved workloads to Google Cloud, implemented auto-scaling, and set up disaster recovery with automated backups.",
+      "results": [
+        "60% reduction in infrastructure costs",
+        "Zero downtime during migration",
+        "Auto-scaling handles 10x traffic spikes",
+        "Automated backup & disaster recovery"
+      ],
+      "technologies": ["Google Cloud", "Docker", "Terraform", "Cloud SQL", "Cloud Run"],
+      "duration": "5 weeks",
+      "industry": "Technology"
+    }
+  ],
+  "profile": {
+    "name": "Placeholder Name",
+    "role": "Founder & Lead IT Consultant",
+    "image": "/images/team/founder.jpg",
+    "bio": "A passionate technologist and STEM advocate based in Kpando, Ghana. With expertise spanning software development, network infrastructure, and cybersecurity, I founded Flawlex Technologies to deliver world-class IT solutions while championing STEM education across Africa.",
+    "skills": ["Full-Stack Development", "Network Engineering", "Cloud Architecture", "Cybersecurity", "Project Management", "STEM Education"],
+    "certifications": []
+  },
+  "testimonials": [
+    {
+      "quote": "Flawlex Technologies transformed our entire IT infrastructure. Their professionalism and technical expertise exceeded our expectations.",
+      "name": "Client Name",
+      "role": "IT Director",
+      "company": "Sample Organization",
+      "image": "/images/testimonials/client1.jpg"
+    },
+    {
+      "quote": "The custom software solution they built saved us countless hours of manual work. Truly a game-changer for our operations.",
+      "name": "Client Name",
+      "role": "Operations Manager",
+      "company": "Sample Company",
+      "image": "/images/testimonials/client2.jpg"
+    },
+    {
+      "quote": "From initial consultation to final deployment, the team was responsive, knowledgeable, and delivered on every promise.",
+      "name": "Client Name",
+      "role": "CEO",
+      "company": "Sample Enterprise",
+      "image": "/images/testimonials/client3.jpg"
+    },
+    {
+      "quote": "Their commitment to STEM education alongside professional IT services makes them a unique and valuable partner for educational institutions.",
+      "name": "Client Name",
+      "role": "School Administrator",
+      "company": "Sample School",
+      "image": "/images/testimonials/client4.jpg"
+    }
+  ],
+  "stem": {
+    "headline": "Empowering the Next Generation Through STEM",
+    "description": "Beyond IT services, we are deeply committed to advancing STEM education in Ghana. Through the Kpando Anglican STEM Club, we nurture young minds with hands-on workshops, electronics training, and innovation programs.",
+    "clubUrl": "https://bstem.vercel.app",
+    "programs": [
+      {
+        "icon": "Cpu",
+        "title": "Electronics & Robotics",
+        "description": "Hands-on workshops teaching students basic electronics, circuit design, and introductory robotics."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Teacher Training",
+        "description": "Equipping educators with modern STEM teaching methodologies and digital tools."
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Science Demonstrations",
+        "description": "Interactive chemistry and physics demonstrations that make science tangible and exciting."
+      },
+      {
+        "icon": "Recycle",
+        "title": "Innovation & Recycling",
+        "description": "Teaching students to innovate through sustainable practices and recycled materials."
+      }
+    ],
+    "impact": [
+      { "value": 200, "suffix": "+", "label": "Students Reached" },
+      { "value": 15, "suffix": "+", "label": "Workshops Conducted" },
+      { "value": 5, "suffix": "", "label": "Schools Partnered" },
+      { "value": 3, "suffix": "", "label": "Apps Built by Students" }
+    ],
+    "ledger": {
+      "title": "Flawlex STEM Ledger",
+      "description": "Our flagship STEM product — a multi-platform inventory management system built to help schools track and manage STEM equipment efficiently across institutions.",
+      "features": [
+        "Real-time equipment tracking across multiple schools",
+        "Low-stock alerts and automated notifications",
+        "CSV/JSON data export for reporting",
+        "Role-based access: School, Community, and Master Portal",
+        "Firebase-powered real-time synchronization"
+      ]
+    }
+  },
+  "process": [
+    {
+      "step": "01",
+      "icon": "Search",
+      "title": "Discover",
+      "description": "We start by understanding your business, challenges, and goals through in-depth consultation."
+    },
+    {
+      "step": "02",
+      "icon": "PenTool",
+      "title": "Design",
+      "description": "We architect solutions and create detailed plans, prototypes, and technical specifications."
+    },
+    {
+      "step": "03",
+      "icon": "Code",
+      "title": "Develop",
+      "description": "Our team builds your solution using industry best practices, with regular progress updates."
+    },
+    {
+      "step": "04",
+      "icon": "Rocket",
+      "title": "Deliver",
+      "description": "We deploy, test, and hand over your solution with full documentation and ongoing support."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What types of IT projects do you handle?",
+      "answer": "We handle a wide range of IT projects including custom software development, web applications, network infrastructure design, cybersecurity assessments, cloud migration, and managed IT services. No project is too small or too complex."
+    },
+    {
+      "question": "How do you price your services?",
+      "answer": "Our pricing is project-based and tailored to your specific needs. We provide detailed proposals after an initial consultation where we understand your requirements, scope, and timeline. Contact us for a free consultation."
+    },
+    {
+      "question": "Do you work with clients outside Ghana?",
+      "answer": "Absolutely! While we are based in Kpando, Ghana, we work with clients across West Africa and internationally. Many of our services can be delivered remotely, and we use modern collaboration tools to stay connected."
+    },
+    {
+      "question": "What is your typical project timeline?",
+      "answer": "Timelines vary based on project complexity. A simple website might take 2-4 weeks, while a full enterprise application could take 3-6 months. We provide realistic timelines during our proposal phase and keep you updated throughout."
+    },
+    {
+      "question": "Do you provide ongoing support after project delivery?",
+      "answer": "Yes! We offer flexible support and maintenance packages. Whether you need help desk support, system monitoring, or periodic updates, we have plans to fit your needs."
+    },
+    {
+      "question": "How does your STEM work relate to your IT services?",
+      "answer": "Our STEM education initiative is a passion project that feeds directly into our IT expertise. It keeps us connected to the latest in technology education and gives us unique insight into building solutions for educational institutions."
+    }
+  ]
+}
