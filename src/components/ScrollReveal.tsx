@@ -51,7 +51,7 @@ export default function ScrollReveal({ children, className = "", delay = 0, dire
       className={className}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, margin: "-50px" }}
+      viewport={{ once: true, margin: "-80px" }}
       variants={getVariants()}
     >
       {children}

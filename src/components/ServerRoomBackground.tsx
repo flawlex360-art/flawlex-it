@@ -8,7 +8,7 @@ export default function ServerRoomBackground() {
 
   useEffect(() => {
     // Generate random server lights (mix of green, red, and occasionally blue)
-    const newLights = Array.from({ length: 60 }).map((_, i) => {
+    const newLights = Array.from({ length: 15 }).map((_, i) => {
       const isRed = Math.random() > 0.85; // 15% chance of red
       const isBlue = Math.random() > 0.9; // 10% chance of blue
       const color = isRed ? "#ff003c" : isBlue ? "#00bfff" : "#00ff80";
