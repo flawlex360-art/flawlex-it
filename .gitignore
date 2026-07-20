@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# utility scripts (should not ship to production)
+make_black.js
+/logo.png

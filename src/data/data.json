@@ -19,7 +19,7 @@
     { "value": 25, "suffix": "+", "label": "Projects Delivered" },
     { "value": 15, "suffix": "+", "label": "Clients Served" },
     { "value": 99.9, "suffix": "%", "label": "Uptime Guarantee" },
-    { "value": 3, "suffix": "+", "label": "Years Experience" }
+    { "value": 10, "suffix": "+", "label": "Years Experience" }
   ],
   "services": [
     {
@@ -115,21 +115,68 @@
   ],
   "portfolio": [
     {
+      "slug": "st-elisha-hospital-management-system",
+      "title": "St. Elisha Hospital Management System",
+      "category": "Software",
+      "categoryTag": "software",
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200",
+      "description": "A high-performance, full-stack hospital management platform built with NestJS and Next.js. Features a flawless real-time, WhatsApp-style communication system, secure 2FA authentication, and robust patient record management.",
+      "challenge": "The hospital required a secure, real-time platform to handle sensitive patient data while providing staff with instantaneous communication channels that functioned as reliably as consumer apps like WhatsApp.",
+      "solution": "Engineered a robust backend using NestJS, Prisma, and PostgreSQL, coupled with a Next.js frontend. Implemented real-time WebSockets via Socket.io for a seamless chat experience, along with advanced JWT and 2FA (QR code) security protocols.",
+      "features": [
+        {
+          "title": "Digital Patient Triage & Doctor Referrals",
+          "description": "A completely paperless workflow. Nurses can record a patient's vitals, symptoms, and initial data directly into the portal upon arrival. With a single click, the patient's digital file is seamlessly routed and referred to a specific doctor's active queue, notifying the doctor instantly."
+        },
+        {
+          "title": "Instant Staff Communication",
+          "description": "An internal messaging system that works exactly like WhatsApp. Doctors, nurses, and administrators can send instant messages to each other for quick consultations or emergencies without ever leaving the hospital's secure portal."
+        },
+        {
+          "title": "Industry-Standard Healthcare Security",
+          "description": "Built to pass stringent healthcare data regulations like HIPAA and ISO 27001. Beyond standard passwords, we utilize Two-Factor Authentication (2FA) alongside real-time server monitoring to detect and block malicious bot attacks. Advanced database encryption and continuous remote backups provide guaranteed protection against ransomware and data loss."
+        }
+      ],
+      "results": [
+        "Real-time, WhatsApp-style chat system for instantaneous staff communication",
+        "Enterprise-grade security with JWT and Two-Factor Authentication (2FA)",
+        "Modern, highly-responsive UI powered by Tailwind CSS v4 and Framer Motion",
+        "Robust database architecture utilizing Prisma ORM"
+      ],
+      "technologies": ["NestJS", "Next.js", "Prisma", "Socket.io", "Tailwind CSS", "JWT/2FA"],
+      "duration": "4 months",
+      "industry": "Healthcare"
+    },
+    {
       "slug": "stem-equipment-ledger",
-      "title": "STEM Equipment Ledger",
+      "title": "STEM Equipment Ledger & Borrowing Ecosystem",
       "category": "Software",
       "categoryTag": "stem",
-      "image": "/images/portfolio/stem-ledger.jpg",
-      "description": "A multi-platform inventory management system for tracking STEM equipment across schools. Features real-time sync, multi-school management, and low-stock alerts.",
-      "challenge": "Schools lacked a centralized system to track STEM equipment, leading to losses, duplicate purchases, and poor resource allocation across multiple institutions.",
-      "solution": "Built a 3-app ecosystem — School App, Community App, and Master Portal — with Firebase Firestore for real-time data synchronization, role-based access control, and comprehensive inventory tracking.",
-      "results": [
-        "50% reduction in equipment losses",
-        "Real-time visibility across all schools",
-        "Automated low-stock alerts",
-        "CSV/JSON export for reporting"
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=1200",
+      "description": "A comprehensive Android application ecosystem designed to connect specialized STEM schools with non-STEM community schools. It features real-time inventory synchronization, equipment tracking (lost, broken, low-stock), and a dynamic borrowing request system.",
+      "challenge": "Community (non-STEM) schools lacked access to crucial educational equipment, while STEM schools had resources that were difficult to track. There was no centralized way for regional coordinators to manage schools, dynamically revoke access, or prevent borrowing requests for unavailable, lost, or broken items.",
+      "solution": "Developed a 3-tier Android application ecosystem—School App, Community App, and Master Portal—powered by Firebase Firestore. The system enables real-time synchronization, instant school credential generation, dynamic account revocation, and an in-app communication channel for approval processing.",
+      "features": [
+        {
+          "title": "Master Portal (Science Coordinator)",
+          "description": "An administrative Android app for the Science Coordinator to securely add STEM schools, automatically generate login credentials, preload default STEM equipment inventories, and remotely revoke school access in real-time."
+        },
+        {
+          "title": "School App (STEM Schools)",
+          "description": "An inventory management app for STEM schools. It comes preloaded with standard equipment and allows administrators to flag items as 'low stock', 'lost', or 'broken'. It handles incoming borrow requests and features in-app messaging."
+        },
+        {
+          "title": "Community App (Non-STEM Schools)",
+          "description": "An Android platform empowering non-STEM schools to browse available resources and request to borrow them. Smart filtering ensures that items flagged as 'low stock', 'lost', or 'broken' by STEM schools cannot be requested."
+        }
       ],
-      "technologies": ["HTML/CSS/JS", "Electron", "Capacitor", "Firebase", "Firestore"],
+      "results": [
+        "Enabled resource borrowing for over 50 non-STEM schools",
+        "Automated prevention of requests for unavailable or broken items",
+        "Instant remote account revocation via the Master Portal",
+        "In-app communication reduced approval times by 80%"
+      ],
+      "technologies": ["Android (Kotlin/React Native)", "Firebase Firestore", "Authentication", "Glassmorphism UI"],
       "duration": "3 months",
       "industry": "Education"
     },
@@ -138,7 +185,7 @@
       "title": "School Management Platform",
       "category": "Software",
       "categoryTag": "software",
-      "image": "/images/portfolio/school-mgmt.jpg",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=1200",
       "description": "A comprehensive web application for managing student records, attendance, grades, and communications for educational institutions.",
       "challenge": "Manual record-keeping was time-consuming and error-prone, making it difficult for administrators to generate reports and track student progress.",
       "solution": "Developed a full-stack web application with role-based dashboards for administrators, teachers, and parents, featuring automated report generation and real-time notifications.",
@@ -157,7 +204,7 @@
       "title": "Campus Network Overhaul",
       "category": "Infrastructure",
       "categoryTag": "infrastructure",
-      "image": "/images/portfolio/network.jpg",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200",
       "description": "Complete network redesign and deployment for a medium-sized campus, including structured cabling, wireless coverage, and security hardening.",
       "challenge": "The existing network suffered from frequent outages, dead zones, and security vulnerabilities that disrupted daily operations.",
       "solution": "Performed a full site survey, designed a segmented network architecture with VLANs, deployed enterprise-grade wireless APs, and implemented firewall policies.",
@@ -176,7 +223,7 @@
       "title": "E-Commerce Storefront",
       "category": "Software",
       "categoryTag": "software",
-      "image": "/images/portfolio/ecommerce.jpg",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1200",
       "description": "A modern e-commerce platform with mobile money integration, product catalog management, and order tracking tailored for the Ghanaian market.",
       "challenge": "Local businesses struggled to sell online due to lack of mobile money integration and user-friendly platforms adapted for the West African market.",
       "solution": "Built a responsive storefront with MTN MoMo and Vodafone Cash integration, inventory management, and SMS order notifications.",
@@ -195,7 +242,7 @@
       "title": "IT Security Assessment",
       "category": "Consulting",
       "categoryTag": "consulting",
-      "image": "/images/portfolio/security.jpg",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200",
       "description": "Comprehensive cybersecurity audit for an SME, identifying vulnerabilities and implementing a security hardening plan.",
       "challenge": "The organization had experienced a phishing attack and needed a thorough security review to identify gaps and prevent future incidents.",
       "solution": "Conducted penetration testing, vulnerability scanning, and policy review. Delivered a remediation roadmap and implemented critical fixes including MFA, endpoint protection, and employee training.",
@@ -214,7 +261,7 @@
       "title": "Cloud Migration for SME",
       "category": "Cloud",
       "categoryTag": "consulting",
-      "image": "/images/portfolio/cloud.jpg",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
       "description": "Migrated on-premise infrastructure to the cloud, reducing costs and improving scalability for a growing small business.",
       "challenge": "The company's aging on-premise servers were costly to maintain, frequently failed, and could not scale to meet growing demand.",
       "solution": "Designed a phased migration plan, moved workloads to Google Cloud, implemented auto-scaling, and set up disaster recovery with automated backups.",
@@ -232,7 +279,7 @@
   "profile": {
     "name": "Placeholder Name",
     "role": "Founder & Lead IT Consultant",
-    "image": "/images/team/founder.jpg",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800",
     "bio": "A passionate technologist and STEM advocate based in Kpando, Ghana. With expertise spanning software development, network infrastructure, and cybersecurity, I founded Flawlex Technologies to deliver world-class IT solutions while championing STEM education across Africa.",
     "skills": ["Full-Stack Development", "Network Engineering", "Cloud Architecture", "Cybersecurity", "Project Management", "STEM Education"],
     "certifications": []
