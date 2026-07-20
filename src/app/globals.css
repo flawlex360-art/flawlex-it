@@ -355,6 +355,7 @@ button {
   background: linear-gradient(90deg, transparent, var(--primary), transparent);
   opacity: 0;
   transition: opacity var(--transition-base);
+  pointer-events: none;
 }
 
 .card:hover {
@@ -907,6 +908,7 @@ button {
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 70% 60% at 50% 50%, black 20%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 50%, black 20%, transparent 70%);
+  pointer-events: none;
 }
 
 .page-hero::after {
@@ -917,6 +919,7 @@ button {
   right: 0;
   height: 120px;
   background: linear-gradient(transparent, var(--bg-dark));
+  pointer-events: none;
 }
 
 .page-hero .container {

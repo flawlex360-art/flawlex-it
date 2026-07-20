@@ -196,7 +196,7 @@ export default function ContactPage() {
                           id="name" 
                           name="name" 
                           className="form-input" 
-                          placeholder="John Doe"
+                          placeholder="Edem Agbodza"
                           value={formData.name}
                           onChange={handleChange}
                         />
